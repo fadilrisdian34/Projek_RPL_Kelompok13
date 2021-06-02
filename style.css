@@ -204,7 +204,7 @@ Dashboard Page Code
 
 .top-right .page-title {
     position: absolute;
-    width: 202px;
+    width: 250px;
     height: 5%;
     left: 2%;
     top: 19px;
@@ -488,4 +488,235 @@ Appointment Page Code
     box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.25);;
 }
 
+/* 
+#####################################################################
+Chat Konsultasi CSS Code
+#####################################################################
+*/
 
+.chat-page-container {
+    position: absolute;
+    width: 605px;
+    height: 474px;
+    left: 320px;
+    top: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(46, 42, 42, 0.15);
+    border-radius: 12px;
+}
+
+.dokter{
+    position: absolute;
+    width: 421px;
+    height: 119px;
+    margin-top: 27px;
+    padding: 10px;
+
+    background: #56CCF2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    
+}
+
+.dokter:hover {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.doc-one {
+    left: 100px;
+}
+
+.doc-two {
+    left: 100px;
+    top: 150px;
+}
+
+.doc-three {
+    left: 100px;
+    top: 300px;
+}
+
+.dokter .fill-1,
+.dokter .fill-2,
+.dokter .fill-3 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 200px;
+    top: 30px; 
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.dokter .fill-1 p,
+.dokter .fill-2 p,
+.dokter .fill-3 p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.dokter .fill-1 img,
+.dokter .fill-2 img,
+.dokter .fill-3 img {
+    position: absolute;
+    width: 86px;
+    height: 92px;
+    left: -130px;
+    top: -20px; 
+    margin: 0px;
+}
+
+.chat-2-container {
+    position: absolute;
+    width: 1000px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    padding: 50px 150px 50px;
+}
+
+.chat-2-container .chat-input #input-chat{
+    position: relative;
+    width: 100%;
+    height: 53px;
+    padding: 20px;
+    /* left: 261px; */
+    top: 450px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+    background: rgba(255, 255, 255, 0.17);
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: none;
+    background-color: #EEEEEE;
+}
+.chat-2-container .chat-input #submit {
+    position: relative;
+    width: 70px;
+    height: 38px;
+    border-radius: 50px;
+    padding: 5px;
+    left: 620px;
+    top: 404.5px; 
+    border: none;
+    background-color:#2F80ED;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: thin;
+    transition-duration: 0.2s;
+}
+
+.chat-2-container .chat-input #submit:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.chat-2-container .doc-chat {
+    position: absolute;
+    width: 343px;
+    height: 47px;
+    top: 420px; 
+    left: 450px;
+    padding: 15px 20px; 
+
+    background: rgba(87, 105, 96, 0.17);
+    border-radius: 20px 20px 0px 20px;
+}
+
+.chat-2-container .doc-chat p {
+    position: relative;
+    font-size: 20px;
+    text-align: right;
+    font-weight: normal;
+}
+
+.chat-2-container .doc-chat img {
+    position: absolute;
+    width: 50px;
+    left: 350px;
+    top: 0;
+}
+
+.chat-2-container .my-chat {
+    position: absolute;
+    width: 400px;
+    height: 47px;
+    top: 350px; 
+    left: 210px;
+    padding: 5px 10px; 
+
+    background: rgba(87, 105, 96, 0.17);
+    border-radius: 20px 20px 20px 0px;
+}
+
+.chat-2-container .my-chat p {
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    top: 7px;
+    left: 10px;
+}
+
+.chat-2-container .my-chat img {
+    position: absolute;
+    width: 50px;
+    left: -65px;
+    top: 0;
+}
+
+.chat-2-side {
+    position: absolute;
+}
+
+.chat-2-side img {
+    position: inherit;
+    width: 150px;
+    left: 1050px;
+    top: 25px;
+}
+
+.chat-2-side h1{
+    position: inherit;
+    width: 150px;
+    left: 1070px;
+    top: 180px;
+}
+
+.chat-2-side p {
+    position: inherit;
+    width: 150px;
+    left: 1070px;
+    top: 220px;
+}
+
+.chat-2-side .end-chat {
+    position: inherit;
+    border-radius: 50px;
+    width: 170px;
+    background-color: #2F80ED;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    padding: 10px 5px;
+    border: none;
+    left: 1040px;
+    top: 508px;
+    transition-duration: 0.2s;
+}
+
+.chat-2-side .end-chat:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
