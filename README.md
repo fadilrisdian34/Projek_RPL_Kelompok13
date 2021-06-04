@@ -45,39 +45,70 @@
 </div>
 
 
-## Deskripsi singkat aplikasi
+## Deskripsi Singkat Aplikasi
 [`^ Kembali Keatas ^`](#)
 
 Aplikasi Poly : Clinic Care in IPB University merupakan sebuah aplikasi berbasis web. Aplikasi Poly akan menampilkan nomor antrian online yang bisa di booking sehingga user dapat datang ke klinik IPB saat waktunya dan tidak perlu menunggu antrian. Selain itu, aplikasi ini akan menyediakan fitur konsultasi dokter agar user dapat berkonsultasi seputar penyakit tanpa datang ke klinik serta dengan aplikasi ini user dapat membeli obat secara online.
 
 
-## User analysis
+## User Analysis
 [`^ Kembali Keatas ^`](#)
   * User story
 
-## Spesifikasi teknis lingkungan pengembangan
+## Spesifikasi Teknis Lingkungan Pengembangan
 [`^ Kembali Keatas ^`](#)
-  * Software
-  * Hardware
-  * Tech Stack
-#### Ruang Lingkup 
-Perangkat Lunak
-* Operating System: Windows 10
-* Text Editor: Visual studio code
-* Framework: Laravel, React JS
-* Database:MySql / MongoDB
+
+#### Software:
+* Operating System : Windows 10 64-bit
+* Text Editor : Visual Studio Code
+* Version Control System: Git
+* Design Tools and Prototyping : Figma
+* Management Tools : Trello and Google Site
+  
+#### Hardware:
+* CPU : Intel Core i3-4030U @1.90GHz
+* GPU : Intel HD Graphic Family
+* RAM : 6GB DDR3l
+* ROM : 512Gb HDD dan 128Gb SSD
+
+#### Tech Stack
+* Programming Languange : HTML, CSS, Javascript
+* Framework : Native
+* Web Service : XAMPP
+* Database : MySql / MongoDB
  
 ## Hasil dan pembahasan
 [`^ Kembali Keatas ^`](#)
-  * Use case diagram 
-  * Activity diagram 
-  * Class diagram 
-  * Entity Relationship Diagram 
-  * Arsitektur sistem 
-  * Fungsi utama yang dikembangkan
-  * Fungsi CRUD
 
-## Hasil implementasi
+  <b> 1. Use Case Diagram </b>
+  
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/new-use-case.png">
+  
+  <b> 2. Activity Diagram </b>
+  * Mendaftar Antrian :
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/activity-diagram-for-address-a-queue.png">
+  
+  * Membatalkan Antrian :
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/av-to-cancel-appointment.png">
+  
+  * Chat Konsultasi dengan Dokter :
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/av-to-chat-with-doctor.png">
+ 
+  <b> 3. Class Diagram </b>
+  
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/Class%20Diagram%20Poly.jpeg"> 
+  
+  <b>4. Entity Relationship Diagram</b>
+  
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/ERD%20Poly.jpeg">
+  
+  <b> 5. Arsitektur sistem </b> 
+  
+  <b> 6. Fungsi utama yang dikembangkan </b>
+  
+  <b> 7. Fungsi CRUD </b>
+
+## Hasil Implementasi
 [`^ Kembali Keatas ^`](#)
   * Screenshot sistem 
   * Link aplikasi (jika sudah di deploy)
@@ -87,5 +118,5 @@ Perangkat Lunak
   * Positive Cases
   * Negative Cases (Optional, jika ada jadi nilai tambah)
   
-## Saran untuk pengembangan selanjutnya
+## Saran Untuk Pengembangan Selanjutnya
 [`^ Kembali Keatas ^`](#)      
