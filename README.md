@@ -129,7 +129,10 @@ Melalui diskusi, didapatkan beberapa `user story` sebagai berikut:
    
    &ensp;&ensp;&ensp;&ensp;&ensp; Dimana mahasiswa/pasien dapat berkonsultasi dengan dokter yang ada di klinik tentang masalah kesehatan. Dokter dapat mengetahui kondisi mahasiswa/pasien tanpa perlu datang langsung ke klinik sehingga lebih cepat penanganannya dan lebih hemat waktu. Ketika hendak melakukan chat konsultasi dengan dokter, pasien dapat menuju halaman dashboard platform Poly. Kemudian memilih menu `chat konsultasi` dan memilih dokter yang sesuai untuk melakukan konsultasi.  
 
-  ### 7. Fungsi CRUD 
+  ### 7. Fungsi CRUD
+  a. Sistem Login: Pengguna melakukan `CREATE` akun dengan menggunakan metode POST dari PHP yang kemudian datanya di `READ` oleh database yang juga dengan metode POST
+  b. Sistem Pesan Antrian: Pengguna melakukan `CREATE` daftar antrian dengan mengisi form data yang telah tersedia. Kemudian setelah menekan tombol submit, data dikirim ke database dengan metode POST. Data juga ditangkap/`READ` oleh database dengan metode POST. Pengguna juga dapat melakukan `DELETE` pesanan antrian dengan menekan tombol batalkan pesanan. 
+
 
 ## Hasil Implementasi
 [`^ Kembali Keatas ^`](#)
@@ -138,7 +141,12 @@ Melalui diskusi, didapatkan beberapa `user story` sebagai berikut:
 ## Testing (Test cases)
 [`^ Kembali Keatas ^`](#)
   * Positive Cases
-  * Negative Cases (Optional, jika ada jadi nilai tambah)
+  1. Pengguna berhasil melakukan daftar akun pada aplikasi Poly dan diarahkan ke halaman login.
+  2. Pengguna melakukan pendaftaran untuk mengambil antrian dengan mengisi form data terlebih dahulu. Kemudian menekan tombol submit dan berhasil mendapatkan nomor antriannya.
+  3. Pengguna pergi ke halaman chat konsutasi dan memilih dokter yang sesuai untuk melakukan konsultasi. Kemudia pengguna diarahkan ke laman chat konsultasi dengan dokter.  
+  * Negative Cases 
+  1. Saat pengguna melakukan daftar akun, apabila terdapat nilai username yang sama dengan pengguna lain, sistem akan mengembalikan peringatan bahwa username telah tersedia. Karena username pengguna yang tidak boleh sama satu dengan yang lain. Sehingga pengguna harus mengganti username lain yang belum dipakai oleh user lain.
+  2. Apabila pengguna salah memasukan data ketika login, sistem akan mengembalikan informasi berupa teks bahwa data username/password yang dimasukan tidak sesuai dengan yang telah terdaftar. Sehingga pengguna harus melakukan login kembali dengan nilai data username dan password yang benar/sesuai.
   
 ## Saran untuk Pengembangan Selanjutnya
 [`^ Kembali Keatas ^`](#)
