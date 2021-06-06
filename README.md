@@ -130,8 +130,13 @@ Melalui diskusi, didapatkan beberapa `user story` sebagai berikut:
    &ensp;&ensp;&ensp;&ensp;&ensp; Dimana mahasiswa/pasien dapat berkonsultasi dengan dokter yang ada di klinik tentang masalah kesehatan. Dokter dapat mengetahui kondisi mahasiswa/pasien tanpa perlu datang langsung ke klinik sehingga lebih cepat penanganannya dan lebih hemat waktu. Ketika hendak melakukan chat konsultasi dengan dokter, pasien dapat menuju halaman dashboard platform Poly. Kemudian memilih menu `chat konsultasi` dan memilih dokter yang sesuai untuk melakukan konsultasi.  
 
   ### 7. Fungsi CRUD
-  a. Sistem Login: Pengguna melakukan `CREATE` akun dengan menggunakan metode POST dari PHP yang kemudian datanya di `READ` oleh database yang juga dengan metode POST
-  b. Sistem Pesan Antrian: Pengguna melakukan `CREATE` daftar antrian dengan mengisi form data yang telah tersedia. Kemudian setelah menekan tombol submit, data dikirim ke database dengan metode POST. Data juga ditangkap/`READ` oleh database dengan metode POST. Pengguna juga dapat melakukan `DELETE` pesanan antrian dengan menekan tombol batalkan pesanan. 
+  <b>a. Sistem Login:</b>
+  
+  &ensp;&ensp;&ensp;&ensp;&ensp; Pengguna melakukan `CREATE` akun dengan menggunakan metode POST dari PHP yang kemudian datanya di `READ` oleh database yang juga dengan metode POST
+  
+  <b>b. Sistem Pesan Antrian:</b> 
+  
+  &ensp;&ensp;&ensp;&ensp;&ensp; Pengguna melakukan `CREATE` daftar antrian dengan mengisi form data yang telah tersedia. Kemudian setelah menekan tombol submit, data dikirim ke database dengan metode POST. Data juga ditangkap/`READ` oleh database dengan metode POST. Pengguna juga dapat melakukan `DELETE` pesanan antrian dengan menekan tombol batalkan pesanan. 
 
 
 ## Hasil Implementasi
