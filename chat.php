@@ -1,3 +1,12 @@
+<?php 
+session_start();
+
+if(!isset($_SESSION["login"])) {
+    header("Location: login.php");
+    exit;
+} 
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="assets/ipb-logo.png">
     <title>Poly.</title>
 </head>
 <body>
@@ -22,6 +32,11 @@
         <p class="page-title">
             Chat Konsultasi
         </p>
+        <div class="logout-button">
+            <a href="logout.php"> 
+                <b> Logout </b>
+            </a>
+        </div>
     </div>
     <div class="horizontal-menu">
         <img src="./assets/ipb-logo.png" alt="profile">
@@ -30,9 +45,9 @@
             <h6>G6418018</h6>
         </div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Chat Konsultasi</a></li>
-            <li><a href="#">Pesan Antrian</a></li>
+            <li><a href="dashboard.php">Home</a></li>
+            <li><a href="chat.php">Chat Konsultasi</a></li>
+            <li><a href="queue.php">Pesan Antrian</a></li>
         </ul>
     </div>
     <div class="main-menu">

@@ -113,6 +113,71 @@ input {
     top: 23%;
 }
 
+.login-right-side .login-fill .new-here {
+    /* display: block; */
+    /* margin-top: 50px; */
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.login-right-side .login-fill .new-user {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.login-right-side .login-fill .new-user a {
+    text-decoration: none;
+}
+
+.container .login-right-side .create-account-title {
+    color: #0C0B8B;
+    position: absolute;
+    top: 8%;
+    left: 55%;
+}
+
+.login-right-side .create-account-title hr {
+    position: absolute;
+    left: -25%;
+    margin-top: 10px;
+    /* background-color: #0C0B8B; */
+    /* border-radius: 5px; */ 
+    width: 150%;
+    border-top: 3px dashed #bbb
+}
+
+.login-right-side .login-fill .wrong-login-data p {
+    color: red;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.login-right-side .login-title {
+    color: #0C0B8B;
+    position: absolute;
+    top: 8%;
+    left: 64%;
+}
+
+.login-right-side .login-title hr {
+    position: absolute;
+    left: -45%;
+    margin-top: 10px;
+    width: 200%;
+    border-top: 3px dashed #bbb
+}
+
+.top-right .logout-button a {
+    position: absolute;
+    font-size: 20px;
+    top: 33%;
+    left: 92%;
+    color: #0C0B8B;
+    text-decoration: none;
+}
+
+
 /* 
 #############################################################
 Dashboard Page Code
