@@ -1,0 +1,804 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    /* border: 1px solid black; */
+    margin: 120px auto;
+    background-color: #EEEEEE;
+    border-radius: 12px;
+    box-shadow: 0px 10px 10px rgba(46, 42, 42, 0.23);
+    position: relative;
+}
+
+.login-left-side {
+    width: 50%;
+    height: 100%;
+
+    float: left;
+}
+
+.login-right-side {
+    width: 50%;
+    height: 100%;
+
+    /* digunakan untuk memindahkan posisi elemen ke sisi kanan container */
+    float: right;
+}
+
+.container .login-left-side img {
+    position: absolute;
+    width: 146px;
+    height: 150px;
+    top: 20%;
+    left: 10%;
+}
+
+.container .login-left-side .marks {
+    position: absolute;
+    left: 9%;
+    top: 53%;
+    text-align: center;
+    color: #0C0B8B;
+}
+
+input {
+    display: block;
+}
+
+.container .login-right-side button {
+    background-color: #00A1E5;
+    border-radius: 50px;
+    width: 251.83px;
+    height: 36.52px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 110.18%;
+    /* or 21px */
+    outline: none;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+}
+
+.container .login-right-side button:hover {
+    /* width: 255px; */
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.25);
+}
+
+.container .login-right-side label {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 110.18%;
+    color: #0C0B8B;
+}
+
+.container .login-right-side input {
+    background: #D4D7D6;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: none;
+    /* position: absolute; */
+    width: 251.83px;
+    height: 36.52px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.login-right-side .login-fill {
+    position: absolute;
+    top: 23%;
+}
+
+.login-right-side .login-fill .new-here {
+    /* display: block; */
+    /* margin-top: 50px; */
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.login-right-side .login-fill .new-user {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.login-right-side .login-fill .new-user a {
+    text-decoration: none;
+}
+
+.container .login-right-side .create-account-title {
+    color: #0C0B8B;
+    position: absolute;
+    top: 8%;
+    left: 55%;
+}
+
+.login-right-side .create-account-title hr {
+    position: absolute;
+    left: -25%;
+    margin-top: 10px;
+    /* background-color: #0C0B8B; */
+    /* border-radius: 5px; */ 
+    width: 150%;
+    border-top: 3px dashed #bbb
+}
+
+.login-right-side .login-fill .wrong-login-data p {
+    color: red;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.login-right-side .login-title {
+    color: #0C0B8B;
+    position: absolute;
+    top: 8%;
+    left: 64%;
+}
+
+.login-right-side .login-title hr {
+    position: absolute;
+    left: -45%;
+    margin-top: 10px;
+    width: 200%;
+    border-top: 3px dashed #bbb
+}
+
+.top-right .logout-button a {
+    position: absolute;
+    font-size: 20px;
+    top: 33%;
+    left: 92%;
+    color: #0C0B8B;
+    text-decoration: none;
+}
+
+
+/* 
+#############################################################
+Dashboard Page Code
+#############################################################
+*/
+
+.top-left {
+    background-color: #F5F5F3;
+    position: absolute;
+    width: 15%;
+    height: 10%;
+    left: 0px;
+    top: 0px;
+
+    float: left;
+}
+
+.top-right {
+    background-color: #EEEEEE;
+    position: absolute;
+    width: 85%;
+    height: 10%;
+    left: 15%;
+    top: 0px;
+}
+
+.horizontal-menu {
+    background-color: #00A1E5;
+    position: absolute;
+    width: 15%;
+    height: 90%;
+    top: 10%;
+
+    float: left;
+}
+
+.main-menu {
+    background-color: #F4F9FD;
+    position: absolute;
+    width: 85%;
+    height: 90%;
+    top: 10%;
+    left: 15%;
+
+    float: right;
+}
+
+.top-left img {
+    position: absolute;
+    width: 50px;
+    height: 49px;
+    left: 17px;
+    top: 9px;
+}
+
+.top-left .title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 110.18%;
+
+    position: absolute;
+    width: 65px;
+    height: 34px;
+    left: 33%;
+    top: 14px;
+    color: #0C0B8B;
+}
+
+.top-left .define {
+    position: absolute;
+    width: 124px;
+    height: 10px;
+    left: 33%;
+    top: 40px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 110.18%;
+    /* or 11px */
+
+    text-align: center;
+
+    color: #0C0B8B;
+}
+
+.top-right .page-title {
+    position: absolute;
+    width: 250px;
+    height: 5%;
+    left: 2%;
+    top: 19px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 110.18%;
+    /* or 33px */
+
+    text-align: center;
+
+    color: #0C0B8B;
+}
+
+.horizontal-menu ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 114px;
+    height: 21px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    left: 45px;
+    top: 250px;
+
+    color: #FFFFFF;
+}
+
+.horizontal-menu li a {
+    display: block;
+    color: #0C0B8B;
+    padding: 15px 0px;
+    /* margin: 1px; */
+    text-decoration: none;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.horizontal-menu li a:hover {
+    font-size: 30px;
+    /* color: #00A1E5; */
+}
+
+.horizontal-menu img {
+    position: absolute;
+    width: 120px;
+    /* height: 144px; */
+    left: 46px;
+    top: 25px;
+    border-radius: 0%;    
+}
+
+.horizontal-menu .nama {
+    text-align: center;
+    position: absolute;
+    top: 155px;
+    left: 65px;
+    color: #0C0B8B;
+}
+
+.main-menu .queue-info {
+    position: absolute;
+    width: 294px;
+    height: 364px;
+    left: 470px;
+    top: 50px;
+
+    background: #EEEEEE;
+    box-shadow: 0px 5.5px 7px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+
+.main-menu .queue-info h1 {
+    position: absolute;
+    width: 269px;
+    height: 88px;
+    left: 15px; 
+    top: 25px; 
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 118.18%;
+    /* or 41px */
+
+    text-align: center;
+
+    color: #0C0B8B;
+}
+
+.main-menu .chat-konsul .chat-konsul-btn {
+    position: absolute;
+    width: 130.12px;
+    height: 143.61px;
+    left: 470px;
+    top: 430px;
+
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+
+.main-menu .batal .batal-btn {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 470px;
+    top: 430px;
+    margin-top: 150px;
+    margin-left :50px;
+
+    background:#FF0000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.main-menu .chat-konsul .chat-konsul-btn:hover {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.main-menu .chat-konsul .chat-konsul-btn label {
+    position: absolute;
+    width: 113.15px;
+    height: 21.85px;
+    left: 8px;
+    top: 80px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #0C0B8B;
+}
+
+.main-menu .pesan-antrian .pesan-antrian-btn{
+    position: absolute;
+    width: 130.12px;
+    height: 143.61px;
+    left: 630px;
+    top: 430px;
+
+    background: #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.main-menu .pesan-antrian .pesan-antrian-btn:hover {
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.25);
+}
+
+.main-menu .pesan-antrian .pesan-antrian-btn label {
+    position: absolute;
+    width: 101.83px;
+    height: 24.98px;
+    left: 15px;
+    top: 85px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    /* Gray 1 */
+
+    color: #0C0B8B;
+}
+
+.main-menu .queue-info label {
+    position: absolute;
+    display: block;
+}
+
+.main-menu .queue-info .queue-number {
+    position: absolute;
+    width: 155px;
+    height: 146px;
+    left: 70px;
+    top: 125px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 146px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #0C0B8B;
+}
+
+.main-menu .queue-info .keterangan {
+    position: absolute;
+    width: 239px;
+    height: 24px;
+    left: 7px;
+    top: 250px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 118.18%;
+    /* or 22px */
+
+    text-align: center;
+
+    color: #0C0B8B;
+}
+
+/* 
+####################################################################
+Appointment Page Code
+####################################################################
+*/
+.main-menu .antrian-container {
+    position: absolute;
+    width: 654px;
+    height: 527px;
+    left: 300px;
+    top: 50px; 
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(46, 42, 42, 0.15);
+    border-radius: 12px;
+    padding-top: 50px;
+}
+
+.main-menu .antrian-container label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 50px;
+    /* identical to box height */
+    color: #0C0B8B;
+}
+
+/* .main-menu .antrian-container .bpjs,
+.main-menu .antrian-container .nama-antrian,
+.main-menu .antrian-container .nim-antrian,
+.main-menu .antrian-container .keperluan,
+.main-menu .antrian-container .pilih-tanggal{
+    /* display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+} */
+
+.main-menu .antrian-container input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 50px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 550px;
+}
+
+.main-menu .antrian-container button {
+    position: absolute;
+    width: 142px;
+    height: 34px;
+    left: 460px;
+    top: 420px;
+
+    /* Blue 1 */
+
+    background: #2F80ED;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    transition-duration: 0.15s;
+}
+
+.main-menu .antrian-container button:hover {
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.25);;
+}
+
+/* 
+#####################################################################
+Chat Konsultasi CSS Code
+#####################################################################
+*/
+
+.chat-page-container {
+    position: absolute;
+    width: 605px;
+    height: 474px;
+    left: 320px;
+    top: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(46, 42, 42, 0.15);
+    border-radius: 12px;
+}
+
+.dokter{
+    position: absolute;
+    width: 421px;
+    height: 119px;
+    margin-top: 27px;
+    padding: 10px;
+
+    background: #56CCF2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    
+}
+
+.dokter:hover {
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.doc-one {
+    left: 100px;
+}
+
+.doc-two {
+    left: 100px;
+    top: 150px;
+}
+
+.doc-three {
+    left: 100px;
+    top: 300px;
+}
+
+.dokter .fill-1,
+.dokter .fill-2,
+.dokter .fill-3 {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 200px;
+    top: 30px; 
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+
+.dokter .fill-1 p,
+.dokter .fill-2 p,
+.dokter .fill-3 p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.dokter .fill-1 img,
+.dokter .fill-2 img,
+.dokter .fill-3 img {
+    position: absolute;
+    width: 86px;
+    height: 92px;
+    left: -130px;
+    top: -20px; 
+    margin: 0px;
+}
+
+.chat-2-container {
+    position: absolute;
+    width: 1000px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    padding: 50px 150px 50px;
+}
+
+.chat-2-container .chat-input #input-chat{
+    position: relative;
+    width: 100%;
+    height: 53px;
+    padding: 20px;
+    /* left: 261px; */
+    top: 450px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+
+    background: rgba(255, 255, 255, 0.17);
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: none;
+    background-color: #EEEEEE;
+}
+.chat-2-container .chat-input #submit {
+    position: relative;
+    width: 70px;
+    height: 38px;
+    border-radius: 50px;
+    padding: 5px;
+    left: 620px;
+    top: 404.5px; 
+    border: none;
+    background-color:#2F80ED;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: thin;
+    transition-duration: 0.2s;
+}
+
+.chat-2-container .chat-input #submit:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.chat-2-container .doc-chat {
+    position: absolute;
+    width: 343px;
+    height: 47px;
+    top: 420px; 
+    left: 450px;
+    padding: 15px 20px; 
+
+    background: rgba(87, 105, 96, 0.17);
+    border-radius: 20px 20px 0px 20px;
+}
+
+.chat-2-container .doc-chat p {
+    position: relative;
+    font-size: 20px;
+    text-align: right;
+    font-weight: normal;
+}
+
+.chat-2-container .doc-chat img {
+    position: absolute;
+    width: 50px;
+    left: 350px;
+    top: 0;
+}
+
+.chat-2-container .my-chat {
+    position: absolute;
+    width: 400px;
+    height: 47px;
+    top: 350px; 
+    left: 210px;
+    padding: 5px 10px; 
+
+    background: rgba(87, 105, 96, 0.17);
+    border-radius: 20px 20px 20px 0px;
+}
+
+.chat-2-container .my-chat p {
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    top: 7px;
+    left: 10px;
+}
+
+.chat-2-container .my-chat img {
+    position: absolute;
+    width: 50px;
+    left: -65px;
+    top: 0;
+}
+
+.chat-2-side {
+    position: absolute;
+}
+
+.chat-2-side img {
+    position: inherit;
+    width: 150px;
+    left: 1050px;
+    top: 25px;
+}
+
+.chat-2-side h1{
+    position: inherit;
+    width: 150px;
+    left: 1070px;
+    top: 180px;
+}
+
+.chat-2-side p {
+    position: inherit;
+    width: 150px;
+    left: 1070px;
+    top: 220px;
+}
+
+.chat-2-side .end-chat {
+    position: inherit;
+    border-radius: 50px;
+    width: 170px;
+    background-color: #2F80ED;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    padding: 10px 5px;
+    border: none;
+    left: 1040px;
+    top: 508px;
+    transition-duration: 0.2s;
+}
+
+.chat-2-side .end-chat:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
