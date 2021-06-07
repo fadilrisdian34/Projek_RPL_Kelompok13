@@ -82,10 +82,10 @@ Melalui diskusi, didapatkan beberapa `user story` sebagai berikut:
 * ROM : 512Gb HDD dan 128Gb SSD
 
 #### Tech Stack
-* Programming Languange : HTML, CSS, Javascript
+* Programming Languange : HTML, CSS, Javascript, PHP
 * Framework : Native
 * Web Service : XAMPP
-* Database : MySql / MongoDB
+* Database : MySql
  
 ## Hasil dan pembahasan
 [`^ Kembali Keatas ^`](#)
@@ -141,7 +141,28 @@ Melalui diskusi, didapatkan beberapa `user story` sebagai berikut:
 
 ## Hasil Implementasi
 [`^ Kembali Keatas ^`](#)
-  * Screenshot sistem 
+  * <b>Screenshot Sistem</b>
+
+  #### 1. Login
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/1.login.png">
+  
+  #### 2. Sign Up 
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/2.%20signup.png">
+  
+  #### 3. Dashboard 
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/3.dashboard.png">
+ 
+  #### 4. Chat Dokter 
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/4.chatdokter1.png">
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/5.%20chatdokter2%20.png">
+  
+  #### 5. Buat Antrian
+  <img src="https://github.com/fadilrisdian34/Projek_RPL_Kelompok13/blob/main/report-file/6.formregist.png">
+
+
+  * <b>Link Aplikasi:</b>
+  
+  `cliniccareipb.epizy.com` - (Free Hosting Infinityfree)
 
 ## Testing (Test cases)
 [`^ Kembali Keatas ^`](#)
