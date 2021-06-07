@@ -48,7 +48,7 @@
 ## Deskripsi Singkat Aplikasi
 [`^ Kembali Keatas ^`](#)
 
-&ensp;&ensp;&ensp;&ensp;&ensp; Aplikasi Poly : Clinic Care IPB University merupakan sebuah aplikasi berbasis web. Aplikasi Poly akan menampilkan nomor antrian online yang bisa di booking sehingga user dapat datang ke klinik IPB saat waktunya dan tidak perlu menunggu antrian. Selain itu, aplikasi ini akan menyediakan fitur konsultasi dokter agar user dapat berkonsultasi seputar penyakit tanpa datang ke klinik serta dengan aplikasi ini user dapat membeli obat secara online.
+&ensp;&ensp;&ensp;&ensp;&ensp; Aplikasi Poly : Clinic Care IPB University merupakan sebuah aplikasi berbasis web. Aplikasi Poly akan menampilkan nomor antrian online yang bisa di booking sehingga user dapat datang ke klinik IPB saat waktunya dan tidak perlu menunggu antrian. Selain itu, aplikasi ini akan menyediakan fitur konsultasi dokter agar user dapat berkonsultasi seputar penyakit tanpa datang ke klinik.
 
 
 ## User Analysis
