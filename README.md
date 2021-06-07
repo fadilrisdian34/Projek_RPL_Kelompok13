@@ -82,7 +82,7 @@ Melalui diskusi, didapatkan beberapa `user story` sebagai berikut:
 * ROM : 512Gb HDD dan 128Gb SSD
 
 #### Tech Stack
-* Programming Languange : HTML, CSS, Javascript, PHP
+* Programming Languange : Javascript, PHP
 * Framework : Native
 * Web Service : XAMPP
 * Database : MySql
